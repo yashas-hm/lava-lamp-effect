@@ -7,3 +7,7 @@
   * `lavaCount`: Number of lava blobs (default: 4)
   * `speed`: Animation speed (default: 1)
   * `repeatDuration`: Duration of animation cycle (default: 10 seconds)
+
+## 1.0.1
+
+* Update README

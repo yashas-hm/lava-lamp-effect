@@ -10,7 +10,7 @@ to be compatible with the latest Flutter and Dart versions.
 
 ## Demo
 
-![Demo](./assets/demo.gif)
+![Demo](https://raw.githubusercontent.com/yashas-hm/lava-lamp-effect/refs/heads/main/assets/demo.gif)
 
 ## Features
 
