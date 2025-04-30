@@ -1,0 +1,28 @@
+name: lava_lamp_effect
+description: "A widget that provides a customizable lava lamp effect with fluid animations, adjustable colors, sizes, and speeds."
+version: 1.0.0
+repository: https://github.com/yashas-hm/lava-lamp-effect
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=1.17.0"
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  
