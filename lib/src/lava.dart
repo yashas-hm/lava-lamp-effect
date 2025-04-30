@@ -146,26 +146,26 @@ class Lava {
   /// Lookup table for direction vectors used in the marching squares algorithm.
   /// These values define the directions to move when traversing the force field.
   final List<int> ix = [
-    1,   // Right
-    0,   // No horizontal movement
-    -1,  // Left
-    0,   // No horizontal movement
-    0,   // No horizontal movement
-    1,   // Right
-    0,   // No horizontal movement
-    -1,  // Left
-    -1,  // Left
-    0,   // No horizontal movement
-    1,   // Right
-    0,   // No horizontal movement
-    0,   // No horizontal movement
-    1,   // Right
-    1,   // Right
-    0,   // No horizontal movement
-    0,   // No horizontal movement
-    0,   // No horizontal movement
-    1,   // Right
-    1,   // Right
+    1, // Right
+    0, // No horizontal movement
+    -1, // Left
+    0, // No horizontal movement
+    0, // No horizontal movement
+    1, // Right
+    0, // No horizontal movement
+    -1, // Left
+    -1, // Left
+    0, // No horizontal movement
+    1, // Right
+    0, // No horizontal movement
+    0, // No horizontal movement
+    1, // Right
+    1, // Right
+    0, // No horizontal movement
+    0, // No horizontal movement
+    0, // No horizontal movement
+    1, // Right
+    1, // Right
   ];
 
   /// Implements the marching squares algorithm to generate a path around a lava blob.

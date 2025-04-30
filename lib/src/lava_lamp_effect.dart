@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lava_lamp_effect/src/lava.dart';
 import 'package:lava_lamp_effect/src/lava_painter.dart';
 
-/// [LavaLampEffect] is a widget that displays a customizable lava lamp effect 
+/// [LavaLampEffect] is a widget that displays a customizable lava lamp effect
 /// animation.
 ///
 /// This widget creates a fluid animation that resembles a lava lamp, with

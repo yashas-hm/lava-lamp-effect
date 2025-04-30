@@ -37,7 +37,9 @@ class Goblets {
 
     // Initialize with random position within the boundaries
     pos = ForcePoint(
-        rand.nextDouble() * size.width, rand.nextDouble() * size.height);
+      rand.nextDouble() * size.width,
+      rand.nextDouble() * size.height,
+    );
 
     // Calculate size based on the container's dimensions
     double base = size.shortestSide / 15;
