@@ -15,3 +15,7 @@
 ## 1.0.2
 
 * Update dart static analysis
+
+## 1.0.3
+
+* Update README.md

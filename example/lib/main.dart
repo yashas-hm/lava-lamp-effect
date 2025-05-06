@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: Center(
               child: LavaLampEffect(
-                size: const Size(300, 500),
+                size: const Size(500, 300),
                 color: _color,
                 lavaCount: _lavaCount,
                 speed: _speed,

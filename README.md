@@ -1,76 +1,23 @@
 # Lava Lamp Effect
 
-A Flutter package that provides a customizable lava lamp effect with fluid animations, adjustable colors, sizes, and
-speeds.
-
-[![Pub Version](https://img.shields.io/pub/v/lava_lamp_effect.svg)](https://pub.dev/packages/lava_lamp_effect)
-
-This package is inspired by [flutter_lava_clock](https://github.com/jamesblasco/flutter_lava_clock) and has been updated
-to be compatible with the latest Flutter and Dart versions.
+🌋✨ Immerse your app in the hypnotic beauty of molten motion with the `lava_lamp_effect`, a Flutter package designed to
+bring mesmerizing, fluid animations to life. 🫧
 
 ## Demo
 
 ![Demo](https://raw.githubusercontent.com/yashas-hm/lava-lamp-effect/refs/heads/main/assets/demo.gif)
 
-## Features
+### **Show some ❤️ and ⭐️ the Repo**
 
-- Fluid, organic lava lamp animation
-- Customizable colors
-- Adjustable size
-- Control over the number of lava blobs
-- Configurable animation speed
-- Works on all platforms (Android, iOS, web, desktop)
+Resources:
 
-## Installation
+- [GitHub Repo](https://github.com/yashas-hm/lava-lamp-effect)
+- [Example](https://github.com/yashas-hm/lava-lamp-effect/tree/main/example)
+- [Pub Package](https://pub.dev/packages/lava_lamp_effect)
 
-Add this to your package's `pubspec.yaml` file:
+## How to Use?
 
-```yaml
-dependencies:
-  lava_lamp_effect: ^1.0.0
-```
-
-Then run:
-
-```bash
-flutter pub get
-```
-
-## Usage
-
-Import the package:
-
-```dart
-import 'package:lava_lamp_effect/lava_lamp_effect.dart';
-```
-
-Basic usage:
-
-```dart
-// Create a basic lava lamp effect
-Widget buildLavaLamp() {
-  return const LavaLampEffect(
-    size: Size(300, 500),
-  );
-}
-```
-
-Customized usage:
-
-```dart
-// Create a customized lava lamp effect
-Widget buildCustomLavaLamp() {
-  return const LavaLampEffect(
-    size: Size(300, 500),
-    color: Colors.purple,
-    lavaCount: 6,
-    speed: 2,
-    repeatDuration: Duration(seconds: 15),
-  );
-}
-```
-
-### Example
+Adding this bubbly beauty to your UI is smoother than a lava blob floating to the top. Customize it with parameters like `size`, `color`, `lavaCount`, and `speed` to shape your very own lamp of wonder. 🛠️🌈
 
 ```dart
 import 'package:flutter/material.dart';
@@ -92,11 +39,11 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: LavaLampEffect(
-            size: const Size(300, 500),
+            size: Size(300, 500),
             color: Colors.deepPurple,
             lavaCount: 4,
             speed: 1,
-            repeatDuration: const Duration(seconds: 10),
+            repeatDuration: Duration(seconds: 10),
           ),
         ),
       ),
@@ -104,23 +51,27 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+Want a faster flow or more blobs? Crank up the `speed` or `lavaCount` and let the animation groove! 🎛️🎶
 
-## API Reference
+## Features
+- 🫧 Smooth, organic lava motion
+- 🎨 Fully customizable color palette
+- 🧊 Adjustable blob size and count
+- ⏱️ Control animation speed and cycle time
 
-### LavaLampEffect
+## Installation
 
-| Parameter      | Type     | Default            | Description                                         |
-|----------------|----------|--------------------|-----------------------------------------------------|
-| size           | Size     | required           | The dimensions of the lava lamp effect              |
-| color          | Color?   | Theme.primaryColor | The color of the lava blobs                         |
-| lavaCount      | int      | 4                  | The number of lava blobs in the animation           |
-| speed          | int      | 1                  | The speed of the animation (higher values = faster) |
-| repeatDuration | Duration | 10 seconds         | The duration of one complete animation cycle        |
+Add this to your package's `pubspec.yaml` file:
 
-## Contributing
+```yaml
+dependencies:
+  lava_lamp_effect: ^1.0.0
+```
 
-Contributions are welcome! If you find a bug or want a feature, please open an issue on
-the [GitHub repository](https://github.com/yashas-hm/lava-lamp-effect).
+## Contributions
+
+- [Fork it](https://github.com/yashas-hm/lava-lamp-effect/fork) on GitHub
+- [Submit](https://github.com/yashas-hm/lava-lamp-effect/issues/new/choose) feedback, feature or bug report
 
 ## License
 

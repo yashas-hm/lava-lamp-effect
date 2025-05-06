@@ -1,6 +1,6 @@
 name: lava_lamp_effect
 description: "A widget that provides a customizable lava lamp effect with fluid animations, adjustable colors, sizes, and speeds."
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/yashas-hm/lava-lamp-effect
 
 environment:
